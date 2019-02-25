@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FBFFF1B9336E29BF7FC75DC15232C6C /* YLTest.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EE59A08F70D0A4B3E2C1A56DBCDC36 /* YLTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8AEFF7EB9E81AD11DECA5317526EABBE /* Pods-HStarTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C14C387BB30BD481787149B2FBAB54FD /* Pods-HStarTools_Example-dummy.m */; };
+		D6B1A024EE7884992C4462150D2FFDC2 /* HStarTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B26E54FA61148A8EFF1C19C50E4B2D4 /* HStarTools-dummy.m */; };
+		F36F961D7A95D7CD3834D42B8759C3F8 /* YLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D781D42481CC53BA2B6897B85D326518 /* YLTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92268EE778369720E68839CD08F09188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 856666227B0B9AB95412810E03978C43;
+			remoteInfo = HStarTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9659CA9E9A4692717A338987F5516B /* Pods-HStarTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HStarTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		23D3372F1DDAB83678164B0217139D1E /* libHStarTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHStarTools.a; path = libHStarTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE7E3C4B5186A9FDD58EAD73254C839 /* libPods-HStarTools_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HStarTools_Example.a"; path = "libPods-HStarTools_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		519BEDC52BFA9575E577B04DEE93987A /* Pods-HStarTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HStarTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6556B04A31C519B849059CF0D4DAE93E /* Pods-HStarTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HStarTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6B26E54FA61148A8EFF1C19C50E4B2D4 /* HStarTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HStarTools-dummy.m"; sourceTree = "<group>"; };
+		8E29A041FBE2064EFB7C3C20B83EA574 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9999CF1557F4371517FA691C3842B299 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AB21C67BB1E678852E37CB9C55A28D39 /* HStarTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HStarTools.xcconfig; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C14C387BB30BD481787149B2FBAB54FD /* Pods-HStarTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HStarTools_Example-dummy.m"; sourceTree = "<group>"; };
+		CA4FFB4C13127270D711B32D77B2D218 /* HStarTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HStarTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2EE59A08F70D0A4B3E2C1A56DBCDC36 /* YLTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLTest.h; path = HStarTools/Classes/YLTest.h; sourceTree = "<group>"; };
+		D781D42481CC53BA2B6897B85D326518 /* YLTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLTest.m; path = HStarTools/Classes/YLTest.m; sourceTree = "<group>"; };
+		EFA138E261870EA14C5B4D30B949EAC7 /* HStarTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HStarTools-prefix.pch"; sourceTree = "<group>"; };
+		FE0752DD7FABF9779C71872E4F067F24 /* Pods-HStarTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HStarTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FDBAB7497CF2226C662708E4632B714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5527FDA91538167B3C9A5A48B3732CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16879832DF6249972DB25F45B241A17A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA4FFB4C13127270D711B32D77B2D218 /* HStarTools.podspec */,
+				9999CF1557F4371517FA691C3842B299 /* LICENSE */,
+				8E29A041FBE2064EFB7C3C20B83EA574 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2F626F10D1ACC43FE37535AE21E56A06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23D3372F1DDAB83678164B0217139D1E /* libHStarTools.a */,
+				2CE7E3C4B5186A9FDD58EAD73254C839 /* libPods-HStarTools_Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34AB5CB65C1CF34D57999511F594418B /* HStarTools */ = {
+			isa = PBXGroup;
+			children = (
+				D2EE59A08F70D0A4B3E2C1A56DBCDC36 /* YLTest.h */,
+				D781D42481CC53BA2B6897B85D326518 /* YLTest.m */,
+				16879832DF6249972DB25F45B241A17A /* Pod */,
+				A6769A4A244016DCF225E826528D303D /* Support Files */,
+			);
+			name = HStarTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4F2B77D41417385F7DB028240FC8BF86 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34AB5CB65C1CF34D57999511F594418B /* HStarTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				4F2B77D41417385F7DB028240FC8BF86 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				2F626F10D1ACC43FE37535AE21E56A06 /* Products */,
+				7E50D552D77C19E3B84FBB2B46CA6932 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E50D552D77C19E3B84FBB2B46CA6932 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83AA68B70E644C0BD664DEA68FC5F8C4 /* Pods-HStarTools_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		83AA68B70E644C0BD664DEA68FC5F8C4 /* Pods-HStarTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				519BEDC52BFA9575E577B04DEE93987A /* Pods-HStarTools_Example-acknowledgements.markdown */,
+				FE0752DD7FABF9779C71872E4F067F24 /* Pods-HStarTools_Example-acknowledgements.plist */,
+				C14C387BB30BD481787149B2FBAB54FD /* Pods-HStarTools_Example-dummy.m */,
+				6556B04A31C519B849059CF0D4DAE93E /* Pods-HStarTools_Example.debug.xcconfig */,
+				0D9659CA9E9A4692717A338987F5516B /* Pods-HStarTools_Example.release.xcconfig */,
+			);
+			name = "Pods-HStarTools_Example";
+			path = "Target Support Files/Pods-HStarTools_Example";
+			sourceTree = "<group>";
+		};
+		A6769A4A244016DCF225E826528D303D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB21C67BB1E678852E37CB9C55A28D39 /* HStarTools.xcconfig */,
+				6B26E54FA61148A8EFF1C19C50E4B2D4 /* HStarTools-dummy.m */,
+				EFA138E261870EA14C5B4D30B949EAC7 /* HStarTools-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HStarTools";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		405C3323683BC7A6244F073B6B7642FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FBFFF1B9336E29BF7FC75DC15232C6C /* YLTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD79DD1902644BECA8CA18916DEFF66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EA9483D24BD075D9D1824527AB34418 /* Pods-HStarTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381AF8E446A188BD1F9F542B537DDC92 /* Build configuration list for PBXNativeTarget "Pods-HStarTools_Example" */;
+			buildPhases = (
+				CFD79DD1902644BECA8CA18916DEFF66 /* Headers */,
+				D27B198E83D6474A8CED01AAEA58A075 /* Sources */,
+				1FDBAB7497CF2226C662708E4632B714 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11E47B5456BB01508D92744EFCAB8ECF /* PBXTargetDependency */,
+			);
+			name = "Pods-HStarTools_Example";
+			productName = "Pods-HStarTools_Example";
+			productReference = 2CE7E3C4B5186A9FDD58EAD73254C839 /* libPods-HStarTools_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		856666227B0B9AB95412810E03978C43 /* HStarTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEB1108CD0F375FCA68770FD3505F5E /* Build configuration list for PBXNativeTarget "HStarTools" */;
+			buildPhases = (
+				405C3323683BC7A6244F073B6B7642FF /* Headers */,
+				5C150E081385C0032A8AA985565E7B29 /* Sources */,
+				5527FDA91538167B3C9A5A48B3732CA1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HStarTools;
+			productName = HStarTools;
+			productReference = 23D3372F1DDAB83678164B0217139D1E /* libHStarTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2F626F10D1ACC43FE37535AE21E56A06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				856666227B0B9AB95412810E03978C43 /* HStarTools */,
+				6EA9483D24BD075D9D1824527AB34418 /* Pods-HStarTools_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C150E081385C0032A8AA985565E7B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B1A024EE7884992C4462150D2FFDC2 /* HStarTools-dummy.m in Sources */,
+				F36F961D7A95D7CD3834D42B8759C3F8 /* YLTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27B198E83D6474A8CED01AAEA58A075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEFF7EB9E81AD11DECA5317526EABBE /* Pods-HStarTools_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11E47B5456BB01508D92744EFCAB8ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HStarTools;
+			target = 856666227B0B9AB95412810E03978C43 /* HStarTools */;
+			targetProxy = 92268EE778369720E68839CD08F09188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37BF185669DAAB10DE8B8753FEEB359E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB21C67BB1E678852E37CB9C55A28D39 /* HStarTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HStarTools/HStarTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HStarTools;
+				PRODUCT_NAME = HStarTools;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD7702E6D6C256B3B6A70598EFFCB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9659CA9E9A4692717A338987F5516B /* Pods-HStarTools_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E880E12807AA6DC801821891409571C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6556B04A31C519B849059CF0D4DAE93E /* Pods-HStarTools_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C7751E9BB9875D19F0E8483D8054AA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB21C67BB1E678852E37CB9C55A28D39 /* HStarTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HStarTools/HStarTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HStarTools;
+				PRODUCT_NAME = HStarTools;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381AF8E446A188BD1F9F542B537DDC92 /* Build configuration list for PBXNativeTarget "Pods-HStarTools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E880E12807AA6DC801821891409571C /* Debug */,
+				3BD7702E6D6C256B3B6A70598EFFCB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEB1108CD0F375FCA68770FD3505F5E /* Build configuration list for PBXNativeTarget "HStarTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BF185669DAAB10DE8B8753FEEB359E /* Debug */,
+				C7751E9BB9875D19F0E8483D8054AA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

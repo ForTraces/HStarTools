@@ -1,0 +1,8 @@
+
+platform :ios, '8.0'
+
+target 'HStarTools_Example' do
+  pod 'HStarTools', :path => '../'
+
+  
+end

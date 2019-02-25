@@ -1,0 +1,16 @@
+PODS:
+  - HStarTools (0.1.0)
+
+DEPENDENCIES:
+  - HStarTools (from `../`)
+
+EXTERNAL SOURCES:
+  HStarTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HStarTools: 0965d22ea4164ab2a323a156ba4df9b7b76ab105
+
+PODFILE CHECKSUM: c3f6f2f418f573444a204d346ee9b162348db103
+
+COCOAPODS: 1.6.0.beta.2
